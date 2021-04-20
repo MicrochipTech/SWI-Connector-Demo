@@ -1,5 +1,6 @@
 # SWI Connector Demo
 
+[Demonstration Video](https://github.com/MicrochipTech/SWI-Connector-Demo/raw/main/Docs/Media/Swi-Connector-Demo.mp4)
 
 ## ABOUT
 The demo uses a single-wire Serial EEPROM, with a density of 1Kbits, called [**AT21CS01**](https://www.microchip.com/wwwproducts/en/AT21CS01). Microchip's single-wire devices are 2-pin (SI/O and Ground) memory devices that harvest energy from the SI/O pin to power the integrated circuit.
@@ -34,6 +35,12 @@ The primary parts that the user interacts with are:
 - OLED C click, installed in MicroBUS™ connector 1 (top-right corner)
 - SWI Connector Demo board, installed in MicroBUS™ connector 2 (bottom-right corner)
 - Three connectors (RED, GREEN, BLUE) including an **AT21CS01-MSHM10-T** in each
+
+
+
+<img src="{https://github.com/MicrochipTech/SWI-Connector-Demo/raw/main/Docs/Media/Swi-Connector-Demo.gif}" alt="Single-Wire Demo" />
+
+[Full Video](https://github.com/MicrochipTech/SWI-Connector-Demo/raw/main/Docs/Media/Swi-Connector-Demo.mp4)
 
 ### Demo Behavior
 The purpose of the demo is to showcase the ability to use a single-wire device in a mechanical connector by keeping track of the number of times the connector is inserted along with identification and counterfeit detection. By default, the Red connector is considered "genuine", while the Green and Blue are "invalid" or counterfeits, but this can be modified by the end user using a specific sequence of buttons shown later in this document.
