@@ -38,7 +38,7 @@ The primary parts that the user interacts with are:
 
 
 
-<img src="{https://github.com/MicrochipTech/SWI-Connector-Demo/raw/main/Docs/Media/Swi-Connector-Demo.gif}" alt="Single-Wire Demo" />
+<img src="{https://github.com/MicrochipTech/SWI-Connector-Demo/blob/main/Docs/Media/Swi-Connector-Demo.gif}" alt="Single-Wire Demo" />
 
 [Full Video](https://github.com/MicrochipTech/SWI-Connector-Demo/raw/main/Docs/Media/Swi-Connector-Demo.mp4)
 
