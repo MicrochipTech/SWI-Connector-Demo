@@ -1,6 +1,6 @@
 # SWI Connector Demo
 
-[Demonstration Video](https://github.com/MicrochipTech/SWI-Connector-Demo/raw/main/Docs/Media/Swi-Connector-Demo.mp4)
+[![Demonstration Video](/Docs/Media/Swi-Connector-Demo.gif)](https://vimeo.com/545601406)
 
 ## ABOUT
 The demo uses a single-wire Serial EEPROM, with a density of 1Kbits, called [**AT21CS01**](https://www.microchip.com/wwwproducts/en/AT21CS01). Microchip's single-wire devices are 2-pin (SI/O and Ground) memory devices that harvest energy from the SI/O pin to power the integrated circuit.
