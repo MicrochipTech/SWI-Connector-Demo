@@ -26,7 +26,11 @@ The SWI Connector Demo board does not use many components. It includes a pull-up
 
 ### Curiosity High Pin Count (HPC) Development Board Configuration
 
-This demo uses the [**PIC16F18875**](https://www.microchip.com/wwwproducts/en/PIC16F18875) MCU, necessary for the firmware provided. Other microcontrollers might not work, so please double check that your Curiosity board uses this MCU.
+This demo uses the [**PIC16F18875**](https://www.microchip.com/wwwproducts/en/PIC16F18875) (Rev1) or [**PIC18F47Q10**](https://www.microchip.com/wwwproducts/en/PIC18F47Q10) (Rev2) MCU. Other microcontrollers might not work, so please double check that your Curiosity board uses this MCU.
+
+:::Note
+The firmware DemoRev1 targets the **Rev 1** Curiosity HPC board (**PIC16F18875**). The firmware DemoRev2 targets the **Rev 2+** Curiosity HPC board (**PIC18F47Q10**). It was originally built in MPLAB X IDE v5.20 with XC8 v2.05, and has been updated on the MPLABX IDE v6.35 | XC8 v4.0.0 | PIC16F1xxxx_DFP v1.31.465 (Rev1) | PIC18F-Q_DFP v1.30.487(Rev2+).
+:::
 
 The primary parts that the user interacts with are:
 - USB connector

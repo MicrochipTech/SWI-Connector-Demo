@@ -417,3 +417,12 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # End of https://www.toptal.com/developers/gitignore/api/atmelstudio,visualstudio,mplabx,netbeans
+
+### MPLAB X VS Code extension ###
+# Local IDE configuration and generated CMake/Ninja build output
+Firmware/Demo.X/.vscode/
+Firmware/Demo.X/_build/
+Firmware/Demo.X/cmake/
+Firmware/Demo.X/out/
+Firmware/DemoRev1.X/nbproject/Makefile-genesis.properties
+Firmware/DemoRev2.X/nbproject/Makefile-genesis.properties
